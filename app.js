@@ -2,10 +2,8 @@
 
 while (true) {
   let number = prompt();
-  if (number >= 25 && number <= 99) {
+  if ((number >= 25 && number <= 99) || number === null) {
     console.log(number);
-    break;
-  } else if (number === null) {
     break;
   }
 }
